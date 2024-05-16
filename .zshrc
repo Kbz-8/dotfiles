@@ -114,6 +114,7 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 
 export PATH="$HOME/Bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/Bin/assistant:$PATH"
 
 alias nv=nvim
